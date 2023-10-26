@@ -3,6 +3,7 @@ import Promotionimage from '../Assets/Promotionimage.jpg'
 
 const Promotion = () => {
   return (
+    // Estructura HTML del componente
     <div>
       <div class="container-promotion">
         <div class="left-side-promotion">
@@ -21,4 +22,5 @@ const Promotion = () => {
   )
 }
 
+// Exporta el componente "Promotion" como el valor por defecto de este módulo
 export default Promotion

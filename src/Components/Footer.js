@@ -1,9 +1,11 @@
 import React from 'react'
 import Logo from '../Assets/LogoGelashi.png'
-import { IoLogoTwitter, IoLogoFacebook, IoLogoInstagram } from "react-icons/io";
+import { IoLogoTwitter, IoLogoFacebook, IoLogoInstagram } from "react-icons/io"; //Libreria de react para usar los iconos
 
+// componente que muestra el pie de pagina de la web
 const Footer = () => {
   return (
+    // Estructura HTML del componente
     <footer class="footer">
       <div class="footer-container">
         <div class="column">
@@ -39,4 +41,5 @@ const Footer = () => {
   )
 }
 
+// Exporta el componente "Footer" como el valor por defecto de este módulo
 export default Footer

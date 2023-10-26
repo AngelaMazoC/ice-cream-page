@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../Assets/LogoGelashi.png'
 
+// Componente que muestra el navbar 
 const Navbar = () => {
   return (
     <nav>
@@ -16,4 +17,5 @@ const Navbar = () => {
   )
 }
 
+// Exporta el componente "Navbar" como el valor por defecto de este módulo
 export default Navbar

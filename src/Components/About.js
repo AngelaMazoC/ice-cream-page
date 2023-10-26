@@ -1,8 +1,11 @@
 import React from 'react'
-import Aboutimage from '../Assets/Aboutimage.jpg'
+import Aboutimage from '../Assets/Aboutimage.jpg' // Importamos la imagen que se va a mostar en el componente
 
+
+// Componente que muestra el sobre nosotros
 const About = () => {
   return (
+    // Estructura del componente 
     <div>
       <div class="container-about">
         <h1 class="container-title-about">Helados Tradicionales & Deliciosos Desde 1997</h1>
@@ -13,6 +16,7 @@ const About = () => {
             <button class="btn-about">saber más</button>
           </div>
           <div class="center-content-about">
+            {/* Llamamos la imagen que importamos anteriormente */}
             <img src={Aboutimage} alt="" />
           </div>
           <div class="right-content-about">
@@ -26,4 +30,5 @@ const About = () => {
   )
 }
 
-export default About
+// Exporta el componente "About" como el valor por defecto de este módulo
+export default About 

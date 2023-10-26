@@ -1,11 +1,17 @@
 import React from 'react'
+
+// Imporamos las imagenes que vamos a utilizar 
+
 import Productone from '../Assets/product-1.jpg'
 import Producttwo from '../Assets/product-2.jpg'
 import Productthree from '../Assets/product-3.jpg'
 import Productfour from '../Assets/product-4.jpg'
 
+
+// Componente que muestra los productos
 const Products = () => {
   return (
+    // Estructura HTML del componente
     <div class="container-products">
       <div class="content-container-products">
         <h5 class="section-title-products">Nuestros Productos</h5>
@@ -53,4 +59,5 @@ const Products = () => {
   )
 }
 
+// Exporta el componente "Products" como el valor por defecto de este módulo
 export default Products

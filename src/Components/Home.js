@@ -1,8 +1,10 @@
 import React from 'react'
 import Bannerhome from '../Assets/Bannerhome.jpg'
 
+// Componente que muestra el banner 
 const Home = () => {
   return (
+    // Estructura HTML del componente
     <div className='home-container'>
       <div className="home-banner-container">
         <img src={Bannerhome} alt="" />
@@ -16,4 +18,5 @@ const Home = () => {
   )
 }
 
+// Exporta el componente "Home" como el valor por defecto de este módulo
 export default Home
